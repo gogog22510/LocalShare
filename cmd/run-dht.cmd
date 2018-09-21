@@ -1,0 +1,1 @@
+java -cp "./lib/*" -Ddht.config=./config/config.properties gogog22510.dht.core.DistributedHashTable %*
