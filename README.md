@@ -5,6 +5,9 @@ A distributed file system which support download and upload file using UDP and o
 This is a simple distributed file system implementation which is implemented by Kademlia DHT algorithm.
 I implement a simplified version of Kademlia algorithm using UDP to build a P2P network and use TCP to transfer files.
 
+# Java
+The code should support Java 6+, the built jar under lib/ is built by Java 8.
+
 # How to run
 There is a windows cmd package in the repository. Please modify the settings file and put the new build jar in lib folder.
 > Execute run-dht.cmd
